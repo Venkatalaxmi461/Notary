@@ -1,0 +1,26 @@
+body{
+    background-color: azure;
+    background: -webkit-linear-gradient(to right, #254122, #a7f7a0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c6d2d, #19ee3d);
+}
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+
+img {
+    padding: 15px;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
